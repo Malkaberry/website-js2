@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<div lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="contact">
+    <meta name="keywords" content="contact,information">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="malka and adi" content="project">
+    <title>Elron - contact us</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="icon" type="image/x-icon" href="./images/Asset 4.png">
+
+
+</head>
+<header>
+  <nav id="top_nav" aria-label="top_nav">
+    <ul>
+      <li id="logo"><a href="index.html" target="self">Elron</a></li>
+      <li><a href="profile.html" target="self">Profile</a></li>
+      <li>
+          <a href="works.html" target="self">Works</a>
+          <ul>
+              <li><a href="works.html" target="self">2022</a></li>
+              <li><a class="notActive" href="#">2021</a></li>
+              <li><a  class="notActive" href="#">2020</a></li>
+          </ul>
+      </li>
+      <li><a href="contactUs.html">Contact</a></li>
+      <li><a class="notActive" href="#" target="self">News</a></li>
+    
+      <li><a href="about.html" >About</a></li>
+    </ul>
+  </nav>
+  </header>
+
+  <nav>
+    <ol>
+    <li><a href="index.html" target="self">Home</a></li>
+    <li>contact us</li>
+  </ol></nav>
+    
+    <div class="contact">
+    <h1>Contact Us!</h1>
+    <h2>we wanna hear from you!</h2>
+    
+    <form>
+  
+      <label for="full_name">Full Name * </label>
+      <input required type="text" id="fullname" name="full_name" placeholder="Full name" > <br>
+      <label for="full_name">Email * </label>
+      <input required type="text" id="email" name="email" placeholder="email" > <br>
+<div id="gender">
+      <label for="Gender">Gender</label><br>
+      <label for="Female">Female</label>
+      <input type="radio" id="Female" name="Female" value="Female"> <br>
+      <label for="male">Male</label>
+      <input type="radio" id="Male" name="Male" value="Male"><br>
+      <label for="other">Other</label>
+      <input type="radio" id="Other" name="Other" value="Other"><br>
+    </div>
+
+      
+    <label for="">Order Occasion *</label>
+    <select required type="text" id="occasion" name="occasion"> <br>
+      <option id="Wedding" value="Wedding">Wedding</option>
+      <option id="Bat-Mitza" value="Bat-Mitza">Bat-Mitza</option>
+      <option  id="Bridesmaid" value="Bridesmaid">Bridesmaid</option>
+      <option id="other" value="Other">Other</option>
+    </select> 
+      <br>
+      <label for="date">Occasion Date</label>
+      <input type="date" name="date" id="date"><br>
+      <label  class="tellus"for="subject">TELL US EVERTHING!</label>
+      <br>
+      <textarea class="tellus" name="tellus" placeholder="Tell Us More" ></textarea><br>
+    
+    <input  class="btn" type="submit" value="Submit!" onclick="getINFO()">
+
+  </form>    
+</div>
+
+<footer id="foot">
+  <li><a href="contactUs.html" target="self">Contact</a></li>
+  <span>|</span>
+  <li><a href="siteMap.html" target="self">Site Map</a></li>
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>
